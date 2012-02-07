@@ -6,6 +6,7 @@ group :development do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
   gem 'guard-rspec', '0.5.5'
+  gem 'ruby_gntp'
 end
 
 # Gems used only for assets and not required
@@ -23,7 +24,8 @@ group :test do
   gem 'rspec-rails', '2.8.1'
   gem 'capybara', '1.1.2'
   gem 'rb-fsevent', '0.4.3.1', :require => false
-  gem 'growl', '1.0.3'
+  #gem 'growl', '1.0.3'
+  gem 'ruby_gntp'
   gem 'guard-spork', '0.3.2'
   gem 'spork', '~> 0.9.0.rc'
 end 
